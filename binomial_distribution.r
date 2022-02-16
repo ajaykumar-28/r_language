@@ -1,5 +1,7 @@
-x<-c(0,1,2,3,4,5,6)
-f<-c(7,64,140,210,132,75,12)
+print("enter x values")
+x<-scan()
+print("enter f values")
+f<-scan()
 fx<-f*x
 sumfx<-sum(f*x)
 print(sumfx)
